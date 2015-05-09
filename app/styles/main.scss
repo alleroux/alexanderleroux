@@ -13,3 +13,15 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 header {
   height:1000px;
 }
+
+.header-title p, .header-title h1 {
+  color:#cccccc;
+  text-shadow: 1px 1px #000;
+}
+
+#about {
+  background-image: image-url('work-desk.png');
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-position: 100% 80%;
+}
