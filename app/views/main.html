@@ -10,14 +10,25 @@
   </div>
 </header>
 
-<section class="bg-primary" id="about">
+<aside class="bg-dark" id="about">
+  <div class="container text-center">
+    <div class="call-to-action">
+      <h3>In the 21st century, if your company isn't on the web you don't event exist in the minds of the average
+        person.  But you don't need anything complicated.  You just need something simple for people to find you and
+        get in contact with you.  Simple, straight forward and professional goes a long way.
+      </h3>
+    </div>
+  </div>
+</aside>
+
+<section class="bg-primary" id="about2">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
         <h2 class="section-heading">I've got experience in securing client side and server side websites!</h2>
         <hr class="light">
         <p class="text-faded"></p>
-        <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+        <a href="#contact" class="btn btn-default btn-xl page-scroll">Get Started! (Send me an email)</a>
       </div>
     </div>
   </div>
@@ -38,7 +49,7 @@
         <div class="service-box">
           <i class="fa fa-4x fa-compass wow bounceIn text-primary"></i>
           <h3>Do you have them?</h3>
-          <p class="text-muted">I got em in spades. Professional quality and craftsmanship.</p>
+          <p class="text-muted">Professional quality and craftsmanship.</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 text-center">
@@ -52,7 +63,7 @@
         <div class="service-box">
           <i class="fa fa-4x fa-mobile wow bounceIn text-primary" data-wow-delay=".2s"></i>
           <h3>Responsive</h3>
-          <p class="text-muted">Highly responsive and easy on your customer's mobile bandwidth.</p>
+          <p class="text-muted">Highly responsive and easy on your visitors' mobile bandwidth.</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 text-center">
@@ -69,96 +80,7 @@
 <section class="no-padding" id="portfolio">
   <div class="container-fluid">
     <div class="row no-gutter">
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
-          <img src="images/portfolio/portfolio-melrok.png" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                My day job
-              </div>
-              <div class="project-name">
-                MelRok Energy IoT
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
-          <img src="images/portfolio/2.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
-          <img src="images/portfolio/3.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
-          <img src="images/portfolio/4.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
-          <img src="images/portfolio/5.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <a href="#" class="portfolio-box">
-          <img src="images/portfolio/6.jpg" class="img-responsive" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
+      <div class="col-lg-4 col-sm-6" portfolio="portfolio" ng-repeat="portfolio in portfolios"></div>
     </div>
   </div>
 </section>
@@ -166,8 +88,8 @@
 <aside class="bg-dark">
   <div class="container text-center">
     <div class="call-to-action">
-      <h2></h2>
-      <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
+      <h2>You want visualizations?  You want a great mobile experience?</h2>
+      <!--<a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>-->
     </div>
   </div>
 </aside>
@@ -178,16 +100,22 @@
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Talk to me Goose</h2>
         <hr class="primary">
-        <p>Ready to take on your next big project?  Need a personal website for your small business? Looking for a security consultant? Got an idea you can't keep to yourself? Can't find your keys?</p>
+        <p>Ready to take on your next project?  Need a personal website for your small business? Looking for a security consultant? Can't find your keys?</p>
         <p><small><strong>Please note:</strong> I can't actually find your keys but maybe I can ask you where you last remember having them and it might spark your memory.</small></p>
       </div>
-      <div class="col-lg-4 col-lg-offset-2 text-center">
+    </div>
+    <div class="row">
+      <div class="col-lg-4 text-center">
         <i class="fa fa-phone fa-3x wow bounceIn"></i>
         <p>714-243-8735</p>
       </div>
       <div class="col-lg-4 text-center">
         <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
         <p><a href="mailto:alexander.l.leroux@gmail.com">alexander.l.leroux@gmail.com</a></p>
+      </div>
+      <div class="col-lg-4 text-center">
+        <a href="https://www.linkedin.com/pub/alexander-leroux/61/415/129" target="_blank"><span class="fa fa-linkedin wow fa-2x" title="LinkedIn"></span></a>
+        <p>Contact me or take a look at my experience and recommendations</p>
       </div>
     </div>
   </div>

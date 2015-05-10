@@ -15,6 +15,23 @@ angular.module('siteApp')
      * Code licensed under the Apache License v2.0.
      * For details, see http://www.apache.org/licenses/LICENSE-2.0.
      */
+     $scope.portfolios = [
+      {
+        category: "My Day Job",
+        name: "MelRok Energy IoT",
+        img: "portfolio/portfolio-melrok.png"
+      },
+      {
+        category: "Enterprise Security Software",
+        name: "McAfee Vulnerability Manager",
+        img: "portfolio/mvm.png"
+      },
+      {
+        category: "PHP Security Consulting",
+        name: "Wisilica PHP Server Application Security Review",
+        img: "portfolio/secure-php.png"
+      }
+     ];
 
     (function($) {
         "use strict"; // Start of use strict
