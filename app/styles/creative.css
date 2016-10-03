@@ -94,7 +94,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #12EB2B;
+    color: rgba(240,95,64,.9);
 }
 
 .navbar-default .nav > li>a,
@@ -399,9 +399,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #EDED1F;
+    border-color: #31708f;
     color: #fff;
-    background-color: #EED728;
+    background-color: #31708f;
 }
 
 .btn-primary:active,

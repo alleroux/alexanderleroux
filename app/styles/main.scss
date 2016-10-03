@@ -25,3 +25,19 @@ header {
   /*background-attachment: fixed;*/
   background-position: 100% 80%;
 }
+
+h3, h4 {
+  line-height:1.4;
+}
+#contact-link.btn-xl {
+  border:1px solid #333;
+}
+
+.portfolio-notes {
+  margin: 20px;
+}
+
+.call-to-action h3, .call-to-action h4 {
+  margin-left: 50px;
+  text-align:left;
+}
